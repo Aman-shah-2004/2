@@ -21,6 +21,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      # This is the specific step required by your assignment
+      # THIS IS THE CORRECTED STEP NAME with an uppercase 'F'
       - name: 23F2003965@ds.study.iitm.ac.in
-        run: echo "Hello, World! This step is correctly named."
+        run: echo "Hello, World! This step is now correctly named."
